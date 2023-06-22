@@ -7,15 +7,37 @@ function App() {
 <div className="App"   >
 <img style={{
       
-        
+      zIndex:'-1',  
       position: 'absolute',  left: '263px'
     }}src="designer_1.png"></img>
 <div >
 
-
-    <label style={{ height:'24px',width: '38px',marginLeft:'165px' }}><a href=''>Home</a></label>
-    <label style={{ height:'24px',width: '38px',marginLeft:'60px' }}> <a href=''>About</a></label>
-    <label style={{height:'49px',width: '24px',marginLeft:'60px' }}><a href=''>Contact</a></label> 
+    <label style={{marginTop:'18px', height:'24px',width: '38px',marginLeft:'165px',
+styleName: 'Regular 14',
+fontFamily: 'Roboto',
+fontSize: '14px',
+fontWeight: 400,
+lineHeight: '24px',
+letterSpacing: '0px',
+textAlign: 'left',
+  }}>Home</label>
+    <label style={{ height:'24px',width: '38px',marginLeft:'60px',
+  styleName: 'Regular 14',
+fontFamily: 'Roboto',
+fontSize: '14px',
+fontWeight: 400,
+lineHeight: '24px',
+letterSpacing: '0px',
+textAlign: 'left',
+  }}> About</label>
+    <label style={{height:'49px',width: '24px',marginLeft:'60px',
+  styleName: 'Regular 14',
+fontFamily: 'Roboto',
+fontSize: '14px',
+fontWeight: 400,
+lineHeight: '24px',
+letterSpacing: '0px',
+textAlign: 'left', }}>Contact</label> 
     <label style={{  
     position:'absolute',
   marginLeft:'271px',
@@ -24,14 +46,13 @@ function App() {
   fontWeight: 900,
   fontSize: '26px',
   lineHeight: '38px',
+  marginTop:'10px',
   color: '#37447E' }}>Landing</label>
   <button style={{
-    position:'absolute',
     height:'26px',width: '160px', 
     marginLeft:'639px',background: '#111B47',
-    marginTop:'5px',
+    marginTop:'17px',
     color: '#FFFFFF' }}>Buy Now</button>
-
   </div>
 
   <div style={{ marginTop:'261px'}}> 
@@ -254,7 +275,17 @@ mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla 
 
       <center>UI Design Kit</center>
 
-      <center><label style={{marginTop:'40px'}}>See, One price. Simple.</label></center>
+      <center><label style={{marginTop:'40px',
+styleName: 'Regular 14',
+fontFamily: 'Roboto',
+fontSize:'14px',
+fontWeight: '400',
+lineHeight: '24px',
+letterSpacing: '0px',
+textAlign:'center',
+
+    
+    }}>See, One price. Simple.</label></center>
       <center><button
       style={{ 
       height: '26px',
@@ -273,7 +304,17 @@ mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla 
       <div style={{backgroundColor:'#E7ECFF',marginTop:'100px'}} className="row">
       <hr></hr>
       <div className='col-4'>
-        <center>@2023 Your Company</center>
+        <center><label style={{
+        styleName: 'Medium 14',
+        fontFamily: 'Roboto',
+        fontSize: '14px',
+        fontWeight: 500,
+        lineheight: '24px',
+        letterSpacing: '0px',
+        textAlign: 'left',
+        marginTop:'80px',
+        marginRight:'17px'   
+        }}>@2023 Your Company</label></center>
         </div>
       <div className='col-4'><center>  <label style={{  
 
@@ -282,20 +323,28 @@ mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla 
             fontWeight: 900,
             fontSize: '26px',
             lineHeight: '38px',
-  color: '#37447E' }}>Landing</label></center></div>
+  color: '#37447E',
+  marginTop:'70px'
+ }}>Landing</label></center></div>
       <div className='col-4'><center><button
       style={{ 
       height: '26px',
-      width: '189px',fontFamily: 'Roboto',
+      width: '109px',fontFamily: 'Roboto',
       fontStyle: 'normal',
       fontWeight: 500,
-      fontSize: '16px',
-      lineHeight: '26px',
+      fontSize: '12px',
+      lineHeight: '18px',
       color: '#FFFFFF',
       textAlign:'center',
       background: '#111B47',
-      borderradius: '2px'}}
-      
+        marginTop:'75px',
+      borderradius: '2px',
+       marginLeft:'40px', 
+       letterSpacing:'0px'
+    }}
+ 
+
+
       > Purchase Now</button></center></div>
       <center><hr style={{marginTop:'80px', width:'80%'}}></hr></center>  
       <div className="col-1"></div>
@@ -317,6 +366,7 @@ mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla 
       <img style={{marginLeft:'35px'
      }}src="Combined.png"></img>
       </div>
+      <div style={{marginTop:'20px'}} className="row"></div>
       </div>
     </div>
 
